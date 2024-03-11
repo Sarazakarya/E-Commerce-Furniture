@@ -1,0 +1,138 @@
+iframe {
+    width: 100%;
+    height: 80vh;
+    border-radius: 20px;
+    margin: 2rem 0 8rem 0;
+}
+
+form {
+    align-content: stretch !important;
+}
+
+.form-right h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.padge-react {
+    top: 33px;
+    right: 158px;
+
+}
+
+.form-right p {
+    font-weight: 400;
+    margin: .5rem 0 1.5rem 0;
+    font-size: .8rem;
+}
+
+form input {
+    margin-bottom: .5rem;
+    padding: .5rem;
+    border: 1px solid #80808045;
+    outline: 0;
+    /* margin-bottom: .5rem; */
+}
+
+form textarea {
+    padding: .5rem;
+    border: 1px solid #80808045;
+    outline: 0;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 700;
+    color: rgb(187, 187, 187);
+}
+
+.submit {
+    margin-top: 1rem;
+    margin-left: 0;
+}
+
+.inpt {
+    gap: 1rem;
+    display: flex;
+}
+
+.inpt input {
+    gap: .3rem;
+    width: 49%;
+    padding: .5rem;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* form-left */
+.form-right {
+    padding: 1rem;
+}
+
+.form-right label,
+.form-des span {
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+.form-des {
+    font-size: .9rem;
+    margin-bottom: 2rem;
+}
+
+.form-sec {
+    gap: 4rem;
+    display: flex;
+}
+
+.social {
+    font-size: .9rem;
+    color: white;
+    line-height: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #0a5d5d;
+    height: 2rem;
+    width: 2rem;
+}
+
+.icn {
+    gap: .5rem;
+    display: flex;
+}
+
+.social:hover {
+    cursor: pointer;
+    background-color: #063333;
+
+}
+
+@media screen and (max-width:1200px) {
+    .form-sec {
+        gap: 0;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:567px) {
+    .form-sec {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:476px) {
+    .padge-react {
+        right: 115px;
+        top: 29px;
+    }
+
+}

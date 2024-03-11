@@ -1,0 +1,100 @@
+.nav-hr {
+    opacity: .1;
+}
+
+.register h6 {
+    margin-top: 4rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.register .links {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.register .links a {
+    font-weight: 600;
+    margin-left: 1rem;
+    font-size: .8rem;
+    color: black;
+    text-decoration: none;
+}
+
+.padge-react {
+    top: 33px;
+    right: 158px;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inp {
+    outline-color: #a9a6a6;
+    padding: 0.5rem;
+    /* margin: 1rem; */
+    border: 1px solid #0000001c;
+    width: 35%;
+    left: 0;
+}
+
+.error-des,
+.error-msg {
+    color: red;
+    margin-bottom: 0;
+    font-size: .8rem;
+    margin-left: 0;
+    display: none;
+}
+
+.error-msg {
+    margin-bottom: .5rem;
+}
+
+form p {
+    margin-bottom: 1.1rem;
+    font-size: .8rem;
+    /* margin-left: 1rem; */
+    color: gray;
+}
+
+form p a {
+    text-decoration: none;
+}
+
+form button {
+    padding: .6rem;
+    font-size: 1.1rem;
+    color: white;
+    /* margin-left: 1rem; */
+    width: 35%;
+    background-color: #0a5d5d;
+    margin-bottom: 5rem;
+}
+
+form button:hover {
+    background-color: #073e3e;
+}
+
+.check {
+    margin-top: 1rem;
+    margin-bottom: 1.1rem;
+    color: gray;
+    gap: .4rem;
+    display: flex;
+    font-size: .8rem;
+}
+
+.username-inp,
+.PasswordInp,
+.emailInpt {
+    display: none;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="../lib/bootstrap.css">
+    <link rel="stylesheet" href="../css/Payment.css">
+    <link rel="icon" href="../images/index/fav.jpg" type="image/jpg">
+</head>
+
+<body>
+    <main>
+        <div id="loader">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+        <nav class="container">
+            <img src="../images/index/Logo.webp" alt="">
+        </nav>
+        <hr class="nav-hr">
+
+        <section class="container">
+            <div class="payment">
+                <div class="col-md-6 right-sec ">
+                    <div class=" text-center mt-5">
+                        <p class="intro">Express checkout</p>
+                        <button class="pay-pl"><img src="../images/index/pay.svg" alt=""></button>
+                    </div>
+                    <div class="payment-hr">
+                        <hr>
+                        <p>OR</p>
+                        <hr>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="contact">
+                        <h2>Contact</h2>
+                        <input type="text" placeholder="Email or Mobile Phone here" class="email">
+                        <p class="error-des emailInpt">please fill your data</p>
+                        <input type="checkbox">
+                        <span>Email me with news and offers</span>
+                    </div>
+
+                    <!-- Delivery -->
+                    <div class="Delivery">
+                        <h2>Delivery</h2>
+                        <input type="text" placeholder="First Name" class="firstName boxs">
+                        <input type="text" placeholder="Last Name" class="LastName boxs ">
+                        <p class="error-des NameInpt">please fill your data</p>
+                        <input type="text" placeholder="Address" class="Address">
+                        <p class="error-des AddressInp">please fill your data</p>
+                        <input type="text" placeholder="City" class="City box-postal">
+                        <input type="text" placeholder="Postal Code" class="postal-Code box-postal ">
+                        <p class="error-des City-inp">please fill your data</p>
+                        <div class="checkbox-items">
+                            <input type="checkbox">
+                            <span>Save this information for next time</span>
+                        </div>
+                    </div>
+                    <!-- Delivery -->
+                    <div class="Payment-Card">
+                        <h2>Payment</h2>
+                        <p class="pay-des">All transactions are secure and encrypted.</p>
+
+                        <div class="visa-pay">
+                            <div class="credite">
+                                <p>Credit Carf</p>
+                                <img src="../images/index/pay.avif" alt="">
+                            </div>
+                            <input type="number" placeholder="Card Number" class="Card-number">
+                            <p class="error-des Cardnumber">please fill your data</p>
+                            <input type="number" placeholder="Expiration Date" class="Date box">
+                            <input type="password" placeholder="Security CODE" class="Code box">
+                            <p class="error-des DateNum">please fill your data</p>
+                            <input type="text" placeholder="Name On Card" class="NameCard">
+                            <p class="error-des CardNameInp">please fill your data</p>
+                            <div class="checkbox-items">
+                                <input type="checkbox" checked>
+                                <span>Use shipping address as billing address</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="Pay-Now">Pay Now</button>
+
+
+
+
+                </div>
+                <div class="col-md-6 left-sec ">
+                    <div class="total-priceProduct table">
+
+
+                    </div>
+                    <div class=" Price-products">
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- loader -->
+
+    </main>
+
+
+
+
+
+
+    <script src="../js/payment.js"></script>
+    <script src="../js/data.js"></script>
+</body>
+
+</html>

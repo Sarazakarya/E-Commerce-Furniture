@@ -1,0 +1,42 @@
+.location {
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.location img {
+    object-fit: cover;
+    height: 35rem;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.padge-react {
+    top: 33px;
+    right: 158px;
+
+}
+
+.dif {
+    margin-left: 0 !important;
+    padding: 0 !important;
+}
+
+@media screen and (max-width:467px) {
+    .location {
+        margin-bottom: 1rem;
+        margin-bottom: 4rem;
+        flex-direction: column;
+    }
+
+    .dif {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:476px) {
+    .padge-react {
+        right: 115px;
+        top: 29px;
+    }
+
+}
